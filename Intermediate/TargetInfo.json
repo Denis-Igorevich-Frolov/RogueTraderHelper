@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "RogueTraderHelper",
+			"Path": "E:\\Unreal projects\\RogueTraderHelper\\Source\\RogueTraderHelper.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "RogueTraderHelperEditor",
+			"Path": "E:\\Unreal projects\\RogueTraderHelper\\Source\\RogueTraderHelperEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

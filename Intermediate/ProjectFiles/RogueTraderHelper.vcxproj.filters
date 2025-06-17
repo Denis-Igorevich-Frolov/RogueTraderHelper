@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\RogueTraderHelper.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{6DED8720-02CE-4805-9B94-732BAA459741}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\RogueTraderHelper.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\RogueTraderHelperEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{2402F9E2-F178-4059-9CC6-815B685E5F56}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\RogueTraderHelper">
+      <UniqueIdentifier>{1D333CB0-799E-40F0-A45A-85BB804EBF32}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\RogueTraderHelper\RogueTraderHelper.Build.cs">
+      <Filter>Source\RogueTraderHelper</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\RogueTraderHelper\RogueTraderHelper.cpp">
+      <Filter>Source\RogueTraderHelper</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\RogueTraderHelper\RogueTraderHelper.h">
+      <Filter>Source\RogueTraderHelper</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\RogueTraderHelper\RogueTraderHelperGameModeBase.cpp">
+      <Filter>Source\RogueTraderHelper</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\RogueTraderHelper\RogueTraderHelperGameModeBase.h">
+      <Filter>Source\RogueTraderHelper</Filter>
+    </ClInclude>
+    <Filter Include="Source\RogueTraderHelper\SaveGame">
+      <UniqueIdentifier>{99C41B04-3996-4BAC-8491-30D978F4DE97}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\RogueTraderHelper\SaveGame\HeroSaver.cpp">
+      <Filter>Source\RogueTraderHelper\SaveGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\RogueTraderHelper\SaveGame\HeroSaver.h">
+      <Filter>Source\RogueTraderHelper\SaveGame</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
